@@ -1,2 +1,16 @@
-body {background: tomato;
+body {
+  background: salmon;
+  font-family: system-ui, sans-serif;
+}
+nav {background-color: rgba(255,255,255,0.5);
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+nav a{
+  padding: 20px;
+}
+
+nav a.active {
+  background-color: white
 }
